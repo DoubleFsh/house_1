@@ -8,3 +8,4 @@ QQ number(Maybe you need):185254595 -- QQ ID:一条双精度的鱼
 
 # Attentions !!!!!!!
 I think we can be good friends,but But the premise is you follow these rules.
+# Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
