@@ -40,3 +40,5 @@ int main(){
 	}
 	return 0;
 }
+
+//train.usaco.org-->Greedy Gift Givers
