@@ -3,8 +3,9 @@ from pynput.keyboard import Key, Controller
 from pynput.mouse import Button, Controller
 
 mouse = Controller()
-
 from pynput import mouse
+
+#-----------------------------------------------------------
 
 def on_move(x, y):
     print('Pointer moved to {0}'.format(
@@ -47,7 +48,6 @@ def on_release(key):
     print('{0} released'.format(
         key))
     if key == keyboard.Key.esc:
-        # Stop listener
         return False
 
 with keyboard.Listener(
@@ -60,9 +60,8 @@ listener = keyboard.Listener(
     on_release=on_release)
 listener.start()
 
-#------------------------------------------------------------
+#-----------------------------------------------------------
 
-#读取鼠标位置
 while True:
     print('位置是{0}'.format(mouse.position))
 
