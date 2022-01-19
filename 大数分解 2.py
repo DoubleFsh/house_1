@@ -3,8 +3,8 @@ import random
 import time
 start = time.perf_counter()
 
+#-----------------------------------------
 
-# 判断输入是否为素数
 def prime(n):
     if n in {2, 3, 5, 7, 11}:
         return True
@@ -25,13 +25,12 @@ def prime(n):
             return False
     return True
 
+#-----------------------------------------
 
-# 寻找输入的一个因数
 def find(n, a):
     def f(x):
         return (x * x + a) % n
     
-    # 补上因子为2的判定
     if n % 2 == 0:
         return 2
     
@@ -46,7 +45,7 @@ def find(n, a):
         if x1 == x2:
             return n
 
-
+#-----------------------------------------
 num = int(input('Positive integer:'))
 print(f'{num}=')
 
